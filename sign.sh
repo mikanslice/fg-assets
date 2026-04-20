@@ -22,7 +22,7 @@ FILES=(
   "$SCRIPT_DIR/blackips"
   "$SCRIPT_DIR/whitesites"
   "$SCRIPT_DIR/whiteips"
-  "$SCRIPT_DIR/ERROR_ACCESS_DENIED"
+  "$SCRIPT_DIR/ERR_ACCESS_DENIED"
 )
 
 for f in "${FILES[@]}"; do
