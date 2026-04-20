@@ -18,8 +18,11 @@ fi
 
 FILES=(
   "$SCRIPT_DIR/additional.conf"
-  "$SCRIPT_DIR/blacklist.txt"
-  "$SCRIPT_DIR/blocked.html"
+  "$SCRIPT_DIR/blacksites"
+  "$SCRIPT_DIR/blackips"
+  "$SCRIPT_DIR/whitesites"
+  "$SCRIPT_DIR/whiteips"
+  "$SCRIPT_DIR/ERROR_ACCESS_DENIED"
 )
 
 for f in "${FILES[@]}"; do
